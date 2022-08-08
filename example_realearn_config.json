@@ -1,0 +1,278 @@
+{
+  "kind": "Session",
+  "value": {
+    "version": "2.13.1",
+    "id": "JS6vXA_o",
+    "letMatchedEventsThrough": true,
+    "controlDeviceId": "1",
+    "feedbackDeviceId": "1",
+    "defaultGroup": {
+      "eelCondition": "y = p11 < 2/127"
+    },
+    "groups": [
+      {
+        "id": "a8ts43h_z51xUcP6VrQ_3",
+        "name": "row1",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.1 && p[10] < 0.2"
+      },
+      {
+        "id": "O5bhrM_3TW5UF_aeyAxDB",
+        "name": "row2",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.2 && p[10] < 0.3"
+      },
+      {
+        "id": "-AIPFxlqM-8FSxXRsTRmD",
+        "name": "row3",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.3 && p[10] < 0.4"
+      },
+      {
+        "id": "XYaUEmLCKY0qPnbEBgZTZ",
+        "name": "row4",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.4 && p[10] < 0.5"
+      },
+      {
+        "id": "z0lsofEn28NNbcMInicMx",
+        "name": "row5",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.5 && p[10] < 0.6"
+      },
+      {
+        "id": "Rwi7J-JWFdlccGpSobqdF",
+        "name": "row6",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.6 && p[10] < 0.7"
+      },
+      {
+        "id": "Vid6YA2aza6N7KLCKjA1T",
+        "name": "row7",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.7 && p[10] < 0.8"
+      },
+      {
+        "id": "zd4xQdX39x2yS34v7fdfJ",
+        "name": "row8",
+        "activationType": "expression",
+        "eelCondition": "p[10] >= 0.8 && p[10] < 0.9"
+      }
+    ],
+    "defaultControllerGroup": {},
+    "mappings": [
+      {
+        "id": "Bqqo-ZFQLpOvQ01J3GMUH",
+        "name": "record button",
+        "source": {
+          "channel": 15,
+          "number": 107,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "fxAnchor": "id",
+          "fxIndex": 1,
+          "fxGUID": "5CFB8AD0-A4B1-DF49-AFCD-15EAC2A76499",
+          "paramIndex": 9,
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "dlSs2Snc80V4pFcxOxmly",
+        "name": "row buttons",
+        "source": {
+          "channel": 0,
+          "number": 0,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxSourceValue": 0.07874015748031496,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5
+        },
+        "target": {
+          "fxAnchor": "id",
+          "fxIndex": 1,
+          "fxGUID": "5CFB8AD0-A4B1-DF49-AFCD-15EAC2A76499",
+          "paramIndex": 10,
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "pollForFeedback": false
+        },
+        "feedbackIsEnabled": false
+      },
+      {
+        "id": "wqWo6eqKj_SLrhxxVEPMp",
+        "name": "slot1 trigger",
+        "groupId": "a8ts43h_z51xUcP6VrQ_3",
+        "source": {
+          "channel": 0,
+          "number": 45,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxSourceValue": 0.08,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5,
+          "outOfRangeBehavior": "min"
+        },
+        "target": {
+          "trackGUID": "506EF9FC-16DF-40F3-A7CE-B5E7499D2833",
+          "fxAnchor": "id",
+          "fxGUID": "C0C18AB3-74E3-4A23-BA84-443031795E4D",
+          "paramIndex": 100,
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0
+        },
+        "controlIsEnabled": false,
+        "activationType": "target-value",
+        "eelCondition": "y == 0",
+        "mappingKey": "ysHexFWQmt7uZfNugu0gX",
+        "preventEchoFeedback": true
+      },
+      {
+        "id": "ysHexFWQmt7uZfNugu0gX",
+        "name": "slot1 record",
+        "groupId": "a8ts43h_z51xUcP6VrQ_3",
+        "source": {
+          "channel": 0,
+          "number": 45,
+          "character": 1,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 5,
+          "buttonUsage": "press-only"
+        },
+        "target": {
+          "trackGUID": "506EF9FC-16DF-40F3-A7CE-B5E7499D2833",
+          "fxAnchor": "id",
+          "fxGUID": "C0C18AB3-74E3-4A23-BA84-443031795E4D",
+          "paramIndex": 101,
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0
+        },
+        "controlIsEnabled": false
+      },
+      {
+        "id": "ZtKKwMh9tbqzn4WzBFzs0",
+        "name": "slot1 trigger cc",
+        "groupId": "a8ts43h_z51xUcP6VrQ_3",
+        "source": {
+          "channel": 0,
+          "number": 45,
+          "character": 5,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "type": 2,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "minPressMillis": 200,
+          "maxPressMillis": 200,
+          "outOfRangeBehavior": "min",
+          "fireMode": "double"
+        },
+        "target": {
+          "trackGUID": "506EF9FC-16DF-40F3-A7CE-B5E7499D2833",
+          "fxAnchor": "id",
+          "fxGUID": "C0C18AB3-74E3-4A23-BA84-443031795E4D",
+          "paramIndex": 100,
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "pollForFeedback": false
+        },
+        "feedbackIsEnabled": false,
+        "activationType": "modifiers",
+        "modifierCondition1": {
+          "paramIndex": 9,
+          "isOn": false
+        },
+        "eelCondition": "y == 0",
+        "mappingKey": "ysHexFWQmt7uZfNugu0gX",
+        "preventEchoFeedback": true
+      },
+      {
+        "id": "m1mx6WBpObzatwbS7LJhV",
+        "name": "slot1 record cc",
+        "groupId": "a8ts43h_z51xUcP6VrQ_3",
+        "source": {
+          "channel": 0,
+          "number": 45,
+          "character": 5,
+          "isRegistered": false,
+          "is14Bit": false,
+          "oscArgIndex": 0
+        },
+        "mode": {
+          "type": 2,
+          "maxStepSize": 0.05,
+          "minStepFactor": 1,
+          "maxStepFactor": 1,
+          "fireMode": "double",
+          "buttonUsage": "press-only"
+        },
+        "target": {
+          "trackGUID": "506EF9FC-16DF-40F3-A7CE-B5E7499D2833",
+          "fxAnchor": "id",
+          "fxGUID": "C0C18AB3-74E3-4A23-BA84-443031795E4D",
+          "paramIndex": 101,
+          "useProject": true,
+          "moveView": true,
+          "seekPlay": true,
+          "oscArgIndex": 0,
+          "pollForFeedback": false
+        },
+        "feedbackIsEnabled": false,
+        "activationType": "modifiers",
+        "modifierCondition1": {
+          "paramIndex": 9,
+          "isOn": true
+        },
+        "eelCondition": "y == 0",
+        "mappingKey": "wqWo6eqKj_SLrhxxVEPMp"
+      }
+    ],
+    "parameters": {
+      "10": {
+        "value": 0.5
+      }
+    },
+    "instanceFx": {
+      "address": "Focused"
+    }
+  }
+}

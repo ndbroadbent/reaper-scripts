@@ -1,0 +1,6 @@
+AllCops:
+  MaxFilesInCache: 50000
+  NewCops: enable
+  Include:
+    - '**/*.rb'
+    - 'Gemfile'
